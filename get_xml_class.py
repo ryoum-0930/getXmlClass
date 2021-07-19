@@ -52,8 +52,8 @@ class GetXml:
         return _targetListPath,_no
     
     def GetImg(self,xmlPath):
-        _imNmae = os.path.splitext(os.path.basename(xmlPath))[0]
-        _imPath = f"{self.rootPath}/JPEGImages/{_imNmae}.jpg"
+        _imName = os.path.splitext(os.path.basename(xmlPath))[0]
+        _imPath = f"{self.rootPath}/JPEGImages/{_imName}.jpg"
         return _imPath
         
     # 移動先のパスのみ指定
